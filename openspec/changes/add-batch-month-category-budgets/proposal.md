@@ -1,6 +1,6 @@
 # Proposal
 
-Status: approved
+Status: done
 Issue: diblaze/ynab-mcp-server#1
 
 ## Why
