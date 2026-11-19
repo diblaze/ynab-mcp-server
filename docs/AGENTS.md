@@ -2,7 +2,7 @@
 # docs/
 
 ## Purpose
-Design notes, API reference, release notes, upstream's privacy policy and dated worklogs. Nothing here runs; the code is the source of truth for behaviour.
+Design notes, API reference, release notes, upstream's privacy policy and dated worklogs. Architecture decisions live in `adr/` (`adr/0001-maintain-own-fork.md`). Nothing here runs; the code is the source of truth for behaviour.
 
 ## Key files
 | File | Purpose |
