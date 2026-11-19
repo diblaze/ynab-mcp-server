@@ -41,6 +41,8 @@ jobs:
             worker/package-lock.json
       - run: npm ci --no-audit --no-fund
       - run: npm ci --prefix worker --no-audit --no-fund
+      - name: Lint (Biome, errors fail)
+        run: npm run lint
       - name: Dependency audit
         run: npm audit --omit=dev --audit-level=high
       - name: Worker dependency audit
