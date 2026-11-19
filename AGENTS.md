@@ -27,5 +27,6 @@ Node MCP server for YNAB. `index.js` holds the server and its tools (`createYnab
 | [`worker/src/`](worker/src/AGENTS.md) | Worker runtime: OAuth router, Durable Object MCP agent, web flow |
 | [`worker/test/`](worker/test/AGENTS.md) | Worker `node:test` suites |
 | [`docs/`](docs/AGENTS.md) | Design notes, API reference, release notes, privacy policy |
+| `docs/adr/` | Architecture decision records (`0001-maintain-own-fork.md`) |
 | `assets/` | Package icon and logo |
 | `codex/` | Codex plugin manifest and the icon the worker icons are built from |
