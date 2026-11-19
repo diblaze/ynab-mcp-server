@@ -1,0 +1,15 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.6.8/schema.json",
+  "files": {
+    "includes": ["**/*.js", "**/*.mjs", "!**/node_modules", "!**/dist", "!worker/src/connector-icon-assets.js"]
+  },
+  "formatter": { "enabled": false },
+  "assist": { "enabled": false },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "suspicious": { "noAssignInExpressions": "warn" }
+    }
+  }
+}

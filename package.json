@@ -59,7 +59,11 @@
     "build:worker-icons": "node scripts/generate-worker-icon-assets.mjs",
     "pretest:safety": "npm run deps:ensure",
     "test:safety": "node scripts/test-safety-model.mjs",
-    "test:eval": "node scripts/eval-agent-fixtures.mjs"
+    "test:eval": "node scripts/eval-agent-fixtures.mjs",
+    "lint": "biome lint ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.8"
   },
   "dependencies": {
     "@modelcontextprotocol/ext-apps": "^1.7.5",
